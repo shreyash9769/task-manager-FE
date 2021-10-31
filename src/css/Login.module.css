@@ -1,0 +1,103 @@
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 18vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 60px;
+    background-color: white;
+    border-radius: 15px 0 0 15px;
+    height: 60vh;
+    box-shadow: 5px 5px 10px black
+}
+
+.form input{
+    border:none;
+    outline: none;
+    /* border-bottom: 3px solid rgb(238, 40, 100); */
+    padding: 10px;
+    margin: 7px 0;
+    width: 18vw;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.form input:focus{
+    border: 2px solid rgb(238, 40, 100);
+}
+
+.form button{
+    background-color: rgb(247, 68, 122); /* Green */
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 3px 3px 8px black
+}
+.form button:hover{
+    background-color: rgb(238, 40, 100)
+}
+
+.form button:active{
+    transform:translateY(4px)
+}
+
+.form label:after{
+    content: "*";
+    color: red;
+}
+
+.friend{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 26vw;
+    background-color: rgb(238, 40, 100);
+    color: white;
+    border-radius: 0 15px 15px 0;
+    box-shadow: 5px 5px 10px black
+}
+
+.friend p{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 15rem;
+}
+
+.friend button{
+    background-color: white; /* Green */
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 3px 3px 8px black
+}
+
+.friend button:hover{
+    background-color: rgb(211, 202, 202);
+}
+
+.friend button:active{
+    transform:translateY(4px)
+}

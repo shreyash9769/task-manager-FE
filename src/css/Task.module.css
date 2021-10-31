@@ -1,0 +1,111 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    width: 30vw;
+    color: black;
+    border-radius: 12px;
+    box-shadow: 5px 5px 10px black;
+    margin: 5px;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.808)),url("https://res.cloudinary.com/dhqcjbrrk/image/upload/v1635500521/YelpCamp/task_g1xnuj.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.task{
+padding: 10px 10px;
+text-align: center;
+}
+
+.task .p{
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.15rem;
+    /*word-break:break-all; this is used, when u enter a long single word in description 
+    it flows out of the box  */
+}
+
+.button{
+    display: flex;
+}
+
+.edit{
+    background-color: rgb(247, 68, 122); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.edit:hover{
+    background-color: rgb(238, 40, 100);
+}
+
+.edit:active{
+    transform:translateY(4px)
+}
+
+.delete{
+    background-color: rgb(238, 53, 53); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.delete:hover{
+    background-color: red;
+}
+
+.delete:active{
+    transform:translateY(4px)
+}
+
+.cancel{
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 3px 3px 8px black;
+}
+.cancel:hover{
+    background-color: rgb(211, 202, 202);
+}
+
+.cancel:active{
+    transform:translateY(4px)
+}
+
+.values{
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    padding: 2px 4px;
+    width: 20vw;
+    box-shadow: 3px 3px 8px black;
+    color: black;
+}

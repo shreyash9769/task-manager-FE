@@ -1,0 +1,77 @@
+
+.profile{
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30vw;
+    height: 80vh;
+    margin-left: 35vw;
+    background-color: white;
+border-radius: 15px;
+box-shadow:10px 10px 20px black;
+}
+
+.profile div{
+    padding: auto;
+}
+
+.keys{
+    margin:5px 0;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: bold;
+width: 100%;
+}
+
+.header{
+    margin: 5px 0;
+    font-size:1.8rem;
+    font-weight:bold;
+    text-align: center;
+    font-style: italic;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.values{
+    margin: 5px 0;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1.15rem;
+    padding: 2px 4px;
+    width: 20vw;
+    box-shadow: 3px 3px 8px black;
+}
+
+.info button{
+    background-color:rgb(247, 68, 122); /* Green */
+  border: none;
+  margin-top: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 16px;
+  width: 100%;
+  box-shadow: 3px 3px 8px black
+}
+.info button:hover {
+    background-color: rgb(238, 40, 100);/* Green */
+  }
+
+  .info button:active{
+    transform:translateY(4px)
+}

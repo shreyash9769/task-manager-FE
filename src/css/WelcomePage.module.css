@@ -1,0 +1,76 @@
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    background-image:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.6)), url("https://res.cloudinary.com/dhqcjbrrk/image/upload/v1635393051/YelpCamp/task1_vtuvop.png");
+    background-size: cover;
+    margin-top: 52px;
+}
+
+.what{
+    font-size: 1.5rem;
+    margin-right: 55px;
+    margin-bottom: 0;
+}
+
+.header{
+    margin-top: 20vh;
+font-size: 3rem;
+font-weight: bold;
+}
+
+.para{
+    font-size: 1.2rem;
+}
+
+.login{
+    background-color: rgb(247, 68, 122); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 3px 3px 8px black
+}
+
+.login:hover{
+    background-color: rgb(238, 40, 100);
+}
+
+.login:active{
+    transform:scale(0.8,0.8)
+}
+
+.signup{
+    border:1px solid rgb(238, 40, 100); /* Green */
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 10px 5px;
+    box-shadow: 3px 3px 8px black
+}
+
+.signup:hover{
+    background-color: rgb(238, 40, 100);
+    color:white
+}
+
+.signup:active{
+    transform:scale(0.8,0.8)
+}
+
+/* .ul li:hover{
+    background-color: white;
+} */

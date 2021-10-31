@@ -1,0 +1,116 @@
+.mainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 75px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    width: 40vw;
+    box-shadow: 10px 5px 10px black;
+}
+
+.header{
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight:bold;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    height: 50vh;
+    color: white;
+    background-color: rgb(238, 40, 100);
+    border-radius: 0 15px 15px 0;
+}
+
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 26vw;
+    background-color: white;
+    color: white;
+    padding: 0px 20px;
+    height: 50vh;
+    border-radius: 15px 0 0 15px;
+}
+
+.image button{
+    background-color: rgb(247, 68, 122); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 3px 3px 8px black
+}
+
+.image button:hover{
+    background-color: rgb(238, 40, 100)
+}
+
+.form input{
+    border:none;
+    outline: none;
+    font-size: 1.1vmax;
+    padding: 10px;
+    margin: 7px 0;
+    width: 18vw;
+    border-radius: 8px;
+    box-shadow: 3px 3px 8px black;
+}
+
+.form button[type=submit]{
+    background-color: white; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 3px 3px 8px black
+}
+.form button[type=submit]:hover{
+    background-color: rgb(211, 202, 202)
+}
+
+.form button[type=button]{
+    background-color: rgb(211, 202, 202); /* Green */
+  color: black;
+  border: none;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 3px 3px 8px black
+}
+
+.form button:hover{
+    background-color: white;
+}
