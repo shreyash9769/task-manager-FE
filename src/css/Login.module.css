@@ -1,10 +1,10 @@
-.main{
+.main {
     display: flex;
     justify-content: center;
     margin-top: 18vh;
 }
 
-.form{
+.form {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -15,8 +15,8 @@
     box-shadow: 5px 5px 10px black
 }
 
-.form input{
-    border:none;
+.form input {
+    border: none;
     outline: none;
     /* border-bottom: 3px solid rgb(238, 40, 100); */
     padding: 10px;
@@ -26,39 +26,41 @@
     box-shadow: 3px 3px 8px black;
 }
 
-.form input:focus{
+.form input:focus {
     border: 2px solid rgb(238, 40, 100);
 }
 
-.form button{
-    background-color: rgb(247, 68, 122); /* Green */
-  border: none;
-  color: white;
-  padding: 10px 32px;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  font-size: 16px;
-  width: 100%;
-  border-radius: 10px;
-  margin: 10px 0;
-  box-shadow: 3px 3px 8px black
+.form button {
+    background-color: rgb(247, 68, 122);
+    /* Green */
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 3px 3px 8px black
 }
-.form button:hover{
+
+.form button:hover {
     background-color: rgb(238, 40, 100)
 }
 
-.form button:active{
-    transform:translateY(4px)
+.form button:active {
+    transform: translateY(4px)
 }
 
-.form label:after{
+.form label:after {
     content: "*";
     color: red;
 }
 
-.friend{
+.friend {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -70,7 +72,7 @@
     box-shadow: 5px 5px 10px black
 }
 
-.friend p{
+.friend p {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -78,8 +80,9 @@
     width: 15rem;
 }
 
-.friend button{
-    background-color: white; /* Green */
+.friend button {
+    background-color: white;
+    /* Green */
     border: none;
     color: black;
     padding: 10px 32px;
@@ -94,10 +97,10 @@
     box-shadow: 3px 3px 8px black
 }
 
-.friend button:hover{
+.friend button:hover {
     background-color: rgb(211, 202, 202);
 }
 
-.friend button:active{
-    transform:translateY(4px)
+.friend button:active {
+    transform: translateY(4px)
 }
