@@ -1,65 +1,53 @@
-.main{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+p {
+    margin: 0;
 }
 
-.task{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
+.main {
     background-color: white;
-    color: black;
     margin: 10px;
-    width: 30vw;
-    height: 10vh;
-    transition: 0.4s;
-    border-radius: 8px;
-    box-shadow: 5px 5px 10px black;
+    width: 280px;
+    height: 220px;
+    box-shadow: 5px 5px 8px rgb(164, 164, 164);
+    border-radius: 20px;
 }
 
-.task p{
-    margin: 5px;
-    font-size: 1.2rem;
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    padding: 10px 20px;
+    height: 25%;
+}
+
+.title p {
+    font-size: 1.2em;
     font-weight: bold;
 }
 
-.task:hover{
-    cursor: pointer;
-background-color: rgb(238, 40, 100);
-color: white;
+.edit,
+.delete {
+    color: rgb(71, 70, 70);
+    font-size: 1.2em;
+    margin: 0 3px;
 }
 
-.circle{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: rgb(58, 60, 61);
-    margin-left: -14px;
+.desc_deadline_wrapper {
+    height: 75%;
+    padding: 10px 20px;
 }
 
-.circle p{
-    margin-left: 20px;
-    margin-top: 10px;
-    color: white;
-    font-size: 1.2rem;
+.desc {
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
-.stat{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    margin-left: 31vw;
-    background-color: white;
-    box-shadow: 3px 3px 8px black ;
-    border-radius: 5px;
-}
-
-.stat img{
-    width: 50px;
-    height: 50px;
-    object-fit: cover;
+.deadline {
+    height: 15%;
+    font-size: 0.9em;
+    text-align: center;
+    color: gray;
 }

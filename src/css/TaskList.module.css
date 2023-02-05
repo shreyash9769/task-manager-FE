@@ -1,45 +1,45 @@
-
-.main{
+.main {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 75px; 
-    margin-bottom: 75px; 
+    flex-wrap: wrap;
+    margin-top: 75px;
+    margin-bottom: 75px;
 }
 
-.title{
+.title {
     margin: 0;
     font-size: 2.5rem;
-    font-weight:bold;
+    font-weight: bold;
     color: white;
     text-shadow: 5px 5px 5px black;
 }
 
-.taskButton{
-    background-color:white; /* Green */
-  border: none;
-  color: black;
-  padding: 10px 32px;
-  text-align: center;
-  text-decoration: none;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  font-size: 16px;
-  width: 100%;
-  border-radius: 10px;
-  margin: 10px 0;
-  box-shadow: 3px 3px 8px black
+.taskButton {
+    background-color: white;
+    /* Green */
+    border: none;
+    color: black;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 10px 0;
+    box-shadow: 3px 3px 8px black
 }
-.taskButton:hover{
+
+.taskButton:hover {
     background-color: rgb(238, 40, 100);
     color: white;
 }
 
-.taskButton:active{
-    transform:translateY(4px)
+.taskButton:active {
+    transform: translateY(4px)
 }
 
-.filTask{
+.filTask {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
