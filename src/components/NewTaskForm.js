@@ -129,6 +129,8 @@ const NewTaskForm = (props) => {
                     <option value="Completed">Completed</option>
                     <option value="In Progress">In Progress</option>
                 </select>
+                <label>Task Start Date</label>
+                <input type="date"></input>
                 <button type="submit">Add Task</button>
                 <button type="button" onClick={closeHandler}>Cancel</button>
             </form>
